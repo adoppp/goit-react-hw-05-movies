@@ -1,5 +1,5 @@
 import { useEffect, useState, useRef, Suspense } from 'react';
-import { Link, Outlet, useLocation, useParams } from 'react-router-dom';
+import { Outlet, useLocation, useParams } from 'react-router-dom';
 import { getMovieDetails } from 'servise/api-film';
 import { GoBack } from './MovieCard.styled';
 import { InfoLink } from './MovieCard.styled';
