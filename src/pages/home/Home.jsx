@@ -3,7 +3,7 @@ import { FilmList } from 'components/Trending/Trending';
 import { useEffect, useState } from 'react';
 import { useLocation } from 'react-router-dom';
 
-export const Home = () => {
+const Home = () => {
     const [movies, setMovies] = useState([]);
     const location = useLocation();
 
@@ -13,3 +13,5 @@ export const Home = () => {
 
     return <FilmList movies={movies} location={location} />;
 }
+
+export default Home;

@@ -1,0 +1,52 @@
+.description {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 24px;
+}
+
+.overview {
+    max-width: 520px;
+    margin: 8px 0 16px 0;
+}
+
+.vote {
+    margin: 8px 0 16px 0;
+}
+
+.genres {
+    margin-top: 8px;
+    margin-bottom: 32px;
+}
+
+.description img {
+    margin-bottom: 40px;
+    max-width: 300px;
+    max-height: 450px;
+}
+
+.container {
+    max-width: 1158px;
+    padding: 80px 16px;
+    margin: 0 auto;
+}
+
+.link {
+    margin-right: 12px;
+}
+
+.nav {
+    margin-bottom: 24px
+}
+
+@media screen and (min-width: 1000px) {
+    .description {
+        display: flex;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+    }
+
+    .description img {
+        margin-right: 40px;
+    }
+}
